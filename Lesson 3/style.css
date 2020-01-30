@@ -1,35 +1,37 @@
+.clear{
+    clear: both;
+}
 
-div {
+.calendar{
     background-color: rosybrown;
-    height: 30px;
-    font-size: 14px;
+    width: 280px;
+}
+
+.head{
     text-align: center;
+    padding: 20px 0;
+    color: gold;
+    font-size: 20px;
 }
 
-h4{
+.week{
+    background-color: grey;
+}
+
+.day-week, 
+.month .day{
+    float: left;
     text-align: center;
-    color: white;
-    font-size: 16px;
-}
-
-div div{
-    color: sienna;
-}
-
-.no_name{
-    color: gray;
-}
-
-.days {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     color: white;
 }
 
-.weekend {
-    color: red;
+.month .day.weekend{
+color: red;
 }
 
-#first {
-    color: white;
-    background-color: sienna;
-}   
-
+.month .day.current{
+background-color:gold;
+}
