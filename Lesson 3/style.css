@@ -18,8 +18,7 @@
     background-color: grey;
 }
 
-.day-week, 
-.month .day{
+.day-week, .day{
     float: left;
     text-align: center;
     width: 40px;
@@ -28,10 +27,10 @@
     color: white;
 }
 
-.month .day.weekend{
+.day.weekend{
 color: red;
 }
 
-.month .day.current{
+.day.current{
 background-color:gold;
 }
