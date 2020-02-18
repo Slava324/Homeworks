@@ -1,0 +1,75 @@
+div{
+    border: 1px solid black;
+    width: 600px;
+    background: chartreuse;
+}
+.table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 100px;
+    font-size: 10px;
+}
+
+.table td{
+    border: 1px solid black;
+    height: 40px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.table th{
+    border: 1px solid black;
+    height: 5px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.table tbody tr:first-child td:first-child {
+    border-right: 0;
+    text-align: left;
+}
+
+.table tbody tr:first-child td:nth-child(2),
+.table tbody tr:nth-child(2) td:first-child{
+    border-left: 0;
+    border-right: 0;
+    text-align: left;
+}
+
+.table tfoot td:first-child{
+    text-align: left;
+    border-right: 0;
+}
+
+.table tfoot td:nth-child(2){
+    text-align: left;
+    border-left: 0;
+}
+
+.table tbody tr:first-child td:nth-child(3),
+.table tbody tr:nth-child(3) td:first-child{
+    border-left: 0;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(2) td:nth-child(2) {
+    border-left: 0;
+    text-align: left;
+}
+
+.table thead th:nth-child(3) {
+    padding: 2px 10px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
