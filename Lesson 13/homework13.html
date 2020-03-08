@@ -4,80 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework13</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header class="header"> 
+    <header class="head"> 
         <div class="wrapper">
 
-            <div class="header-menu">Menu</div>
-            
-            <div class="header-name">
-                <h2 class="header-name_text">Dmt</h2>
-                <div class="header-name_descr">Design meets tech</div>
-            </div>
+            <div class="header">
 
-            <div class="header-search">Search</div>
+                <a href="javascript:woid(0);" class="header-menu">Menu</a>
+                
+                <div class="header-name">
+                    <h1 class="header-name_text">Dmt</h1>
+                    <div class="header-name_descr">Design meets tech</div>
+                </div>
+
+                <a href="javascript:woid(0);" class="header-search">Search</a>
+
+            </div>
         
         </div>
     </header>
 
+    <main class="main">
+            <div class="wrapper">
 
-    <section class="home-articles">
-        <div class="wrapper">
+                <div class="articles"></dix>
 
-            <div class="home-articles_item">
-                <div class="home-articles_item_button">Home</div>
-                <h1 class="home-articles_item_title">Buster Bulb</h1>
-                <h3 class="home-articles_item_descr">The first designer LED bulb, finished in gold glass.</h3>
-                <a href="javascript:woid(0);" class="button">Read more</a>
+                    <div class="articles-item1">
+                        <div class="articles-item_button">Home</div>
+                        <h1 class="articles-item_title">Buster Bulb</h1>
+                        <h3 class="articles-item_descr">
+                            The first designer LED bulb, finished in gold glass.
+                        </h3>
+                        <a href="javascript:woid(0);" class="button">Read more</a>
+                    </div>
+
+                    <div class="articles-item2">
+                        <div class="articles-item_button">Accessories</div>
+                        <h2 class="articles-item_title">Peak</h2>
+                        <h4 class="articles-item_descr">
+                            A playful pouch with a trick up its sleeve
+                        </h4>
+                        <a href="javascript:woid(0);" class="button">Read more</a>
+                    </div>
+
+                    <div class="articles-item3">
+                        <h2 class="">
+                            Good things<br>...<br>come to those who sign up<br>for our newsletter<br>
+                        </h2>
+
+                        <form class="header-search">
+                            <input type="email" name= "q" placeholder="Your email" class="header-search_line">
+                            <input type="submit" value="Subscribe" class="header-search_submit" name="">
+                        </form>
+
+                        <div class="articles-item_text">
+                            We respect your privacy and we won’t share your information.
+                        </div>
+                    </div>
+
+                    <div class="articles-item">
+                        <div class="articles-item_button">Cameras</div>
+                        <h3 class="articles-item_title">Leica M</h2>
+                        <a href="javascript:woid(0);" class="button">Review</a>
+                    </div>
+
+                    <div class="articles-item">
+                        <div class="articles-item_button">Sound</div>
+                        <h3 class="articles-item_title">Trobla Amplifier</h2>
+                        <a href="javascript:woid(0);" class="button">Review</a>
+                    </div>
+
+                    <div class="articles-item">
+                        <div class="articles-item_button">Cameras</div>
+                        <h3 class="articles-item_title">Leica D-Lux</h3>
+                        <h4 class="articles-item_descr">
+                            Limited-edition DIesel collaboration
+                        </h4>
+                        <a href="javascript:woid(0);" class="button">Read more</a>
+                    </div>
+
+                <section class="articles"></section>
+
             </div>
+        </section>
 
-            <div class="home-articles_item">
-                <div class="home-articles_item_button">Accessories</div>
-                <h2 class="home-articles_item_title">Peak</h2>
-                <h4 class="home-articles_item_descr">A playful pouch with a trick up its sleeve</h4>
-                <a href="javascript:woid(0);" class="button">Read more</a>
-            </div>
-
-            <div class="home-articles_item">
-                <h2 class="">Good things<br>...<br>come to those who sign up<br>for our newsletter<br></h2>
-                <a href="javascript:woid(0);" class="home-search">Your email</a>
-                <a href="javascript:woid(0);" class="home-search_button">Subscribe</a>
-                <div class="home-articles_item_text">We respect your privacy and we won’t share your information.</div>
-            </div>
-
-            <div class="home-articles_item">
-                <div class="home-articles_item_button">Cameras</div>
-                <h3 class="home-articles_item_title">Leica M</h2>
-                <a href="javascript:woid(0);" class="button">Review</a>
-            </div>
-
-            <div class="home-articles_item">
-                <div class="home-articles_item_button">Sound</div>
-                <h3 class="home-articles_item_title">Trobla Amplifier</h2>
-                <a href="javascript:woid(0);" class="button">Review</a>
-            </div>
-
-            <div class="home-articles_item">
-                <div class="home-articles_item_button">Cameras</div>
-                <h3 class="home-articles_item_title">Leica D-Lux</h3>
-                <h4 class="home-articles_item_descr">Limited-edition DIesel collaboration</h4>
-                <a href="javascript:woid(0);" class="button">Read more</a>
-            </div>
-
-        </div>
-    </section>
+    </main>
 
     <footer class="footer">
         <div class="wrapper">
 
-            <div class="inform">Copyright DMT</div>
-            <a href="javascript:woid(0);" class="faceebok"></a>
-            <a href=javascript:woid(0); class="twitter"></a>
+            <div class="footer-copyright">
 
+                <div class="footer-copyright_inform">Copyright DMT</div>
+
+                <div class="footer-copyright_socialnetworks"> 
+                    <a href="javascript:woid(0);" class="faceebok"></a>
+                    <a href=javascript:woid(0); class="twitter"></a>
+                </div>
+
+            </div>
         </div>
     </footer>
 
