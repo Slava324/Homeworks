@@ -67,6 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
+    align-items: flex-start;
     background: url(img/Article1.jpg) no-repeat;
     height: 512px;
     box-sizing: border-box;
@@ -102,15 +103,17 @@ body{
 }
 
 .button{
+    display: inline-block;
     text-decoration: none;
     margin-top: auto;
     color: #ffffff;
     border: 3px solid;
     border-color:  #ffe18f;
     text-align: center;
-    line-height: 40px;
-    height: 42px;
-    width: 126px;
+    line-height: 36px;
+    height: 36px;
+    padding-left: 7px;
+    padding-right: 7px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -119,6 +122,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-basis: 622px;
+    align-items: flex-start;
     height: 483px;
     background: url(img/Article2.png) no-repeat right top;
     background-color: #79bdca;
@@ -159,18 +163,16 @@ body{
     align-items: center;
     flex-basis: 377px;
     height: 483px;
-  
     background: #eb7b61;  
     margin-bottom: 18px;
     box-sizing: border-box;
     padding-top: 77px;
-   
     padding-bottom: 40px;
 }
 
 .email{
     font-family: 'Times New Roman', serif;
-   
+
     color: #ffffff;
     font-size: 48px;
     font-weight: lighter;
@@ -231,6 +233,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     flex-basis: 260px;
     height: 420px;
     background: url(img/Article3.jpg) no-repeat ;
@@ -249,7 +252,7 @@ body{
 }
 
 .articles-item:nth-child(4) .articles-item_title{
-    margin-top: 132px;;
+    margin-top: 116px;
     color: #ffffff;
     font-size: 36px;
     font-weight: 700;
@@ -313,6 +316,7 @@ body{
 .articles-item:nth-child(6){
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     flex-basis: 460px;
     height: 420px;
     background: url(img/Article5.png) no-repeat bottom right;
