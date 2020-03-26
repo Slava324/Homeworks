@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap&subset=cyrillic");
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    max-width: 1447px;
+    margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    min-height: 858px;
+    overflow: hidden;
+    padding-top: 69px;
+    background: linear-gradient(115.26deg, #FCEB6F 8.14%, #FEDE60 88.97%);
+}
+
+.header-menu_logo{
+    margin-left: 86px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.header-menu_item ul{
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 84px;
+    
+   
+}
+
+.header-menu_item ul a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    
+    text-align: center;
+    letter-spacing: 0.652123px;
+    color: #333333;
+}
+
+.header-slide{
+  
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.home-slide_item{
+    margin-top: 232px;
+    margin-left: 78px;
+}
+
+.home-slide_item_title{
+    margin: 0 auto;
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 50px;
+
+letter-spacing: 1.0434px;
+
+color: #333333;
+}
+
+.home-slide_item_descr{
+    margin: 0 auto;
+    margin-top: 68px;
+    width: 522px;
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 31px;
+
+letter-spacing: 0.652123px;
+
+color: #333333;
+}
+
+.home-slide_picture{
+   position: absolute;
+   left: 830px;
+   top: 117px;
+    
+    
+}
+
+
+
+
