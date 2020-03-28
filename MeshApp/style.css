@@ -17,7 +17,6 @@ body{
 .header{
     position: relative;
     min-height: 858px;
-    overflow: hidden;
     padding-top: 69px;
     background: linear-gradient(115.26deg, #FCEB6F 8.14%, #FEDE60 88.97%);
 }
@@ -40,8 +39,6 @@ body{
     padding: 0;
     margin: 0;
     margin-right: 84px;
-    
-   
 }
 
 .header-menu_item ul a{
@@ -50,17 +47,14 @@ body{
     font-weight: normal;
     font-size: 25px;
     line-height: 31px;
-    
     text-align: center;
     letter-spacing: 0.652123px;
     color: #333333;
 }
 
 .header-slide{
-  
     display: flex;
     justify-content: space-between;
-    
 }
 
 .home-slide_item{
@@ -71,14 +65,12 @@ body{
 .home-slide_item_title{
     margin: 0 auto;
     font-family: Source Sans Pro;
-font-style: normal;
-font-weight: 300;
-font-size: 40px;
-line-height: 50px;
-
-letter-spacing: 1.0434px;
-
-color: #333333;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1.0434px;
+    color: #333333;
 }
 
 .home-slide_item_descr{
@@ -86,22 +78,352 @@ color: #333333;
     margin-top: 68px;
     width: 522px;
     font-family: Source Sans Pro;
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 31px;
-
-letter-spacing: 0.652123px;
-
-color: #333333;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.652123px;
+    color: #333333;
 }
 
 .home-slide_picture{
-   position: absolute;
-   left: 830px;
-   top: 117px;
-    
-    
+    position: absolute;
+    left: 820px;
+    top: 117px;
+}
+
+.home-slide_item_market{
+    margin-top: 68px;
+    display: flex;
+}
+
+.AppStore{
+    background: url(img/apple\ logo.png) no-repeat center left;
+    background-position: 30px center;
+	display: block;
+	text-decoration: none;
+    width: 224px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+    padding-left: 70px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.652123px;
+    border: 2px solid #3E3E3E;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.0746433);
+    border-radius: 100px;
+    color: #333333;
+}
+
+.GooglePlay{
+    margin-left: 59px;
+    background: url(img/Object.png) no-repeat center left;
+    background-position: 22px center;
+    display: block;
+    padding-left: 60px;
+    text-decoration: none;
+    width: 224px;
+    height: 81px;
+    text-align: center;
+    line-height: 75px;
+    border: 2px solid #3E3E3E;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.652123px;
+    color: #333333;
+}
+
+.home-container_title{
+    margin: 0;
+    text-align: center;
+    padding-top: 79px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 1.30425px;
+    color: #3F3F3F;
+}
+
+.home-container_articles{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 149px;
+    padding-right: 169px;
+    padding-top: 96px;
+}
+
+.home-container_article:first-child{
+    background: url(img/Group\ 2.png) no-repeat ;
+    background-position: 82% top;
+    margin: 0px;
+    padding-top: 238px;
+    width: 250px;
+    text-align: center;
+}
+
+.home-container_articles_title{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    margin: 0px;
+    text-align: center;
+    letter-spacing: 0.782547px;
+    color: #3F3F3F;
+}
+
+
+
+.home-container_article:nth-child(2){
+    background: url(img/Group.png) no-repeat ;
+    background-position: 82% top;
+    margin: 0px;
+    padding-top: 238px;
+    width: 285px;
+    text-align: center;
+}
+
+
+.home-container_article:nth-child(3){
+    background: url(img/Group\ 4.png) no-repeat top;
+    margin: 0px;
+    padding-top: 238px;
+    width: 250px;
+    text-align: center;
+}
+
+.home-market{
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-market_AppStore{
+    background: url(img/apple\ logo.png) no-repeat center left;
+    background-position: 30px center;
+	display: block;
+	text-decoration: none;
+    width: 224px;
+    height: 81px;
+    text-align: center;
+    line-height: 81px;
+    padding-left: 70px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.652123px;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.0746433);
+    border-radius: 100px;
+    color: #333333;
+    margin-bottom: 61px;
+}
+
+.home-market_GooglePlay{
+    margin-left: 59px;
+    background: url(img/Object.png) no-repeat center left;
+    background-position: 22px center;
+    display: block;
+    padding-left: 60px;
+    text-decoration: none;
+    width: 224px;
+    height: 81px;
+    text-align: center;
+    line-height: 75px;
+    box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 0.652123px;
+    color: #333333;
+    margin-bottom: 61px;
+}
+
+.home-information{
+    background: #F2F2F2;
+    position: relative;
+    z-index: 9
+}
+
+.home-information_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-information_item{
+    padding-top: 147px;
+    padding-left: 75px;
+    z-index: 2;
+}
+
+.home-information_item_title{
+    margin: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 1.23077px;
+    color: #3F3F3F;
+}
+
+.home-information_item_descr{
+    padding-top: 5px;
+    margin: 0;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.923077px;
+    color: #7A7A7A;
+}
+
+#rectangl{
+    margin-left: 187px;
+    position: absolute;
+    height: 697px;
+    width: 186px;
+    background: #FFCB00;
+    mix-blend-mode: normal;
+    opacity: 0.46;
+}
+
+.home-information_item_text{
+    width: 620px;
+    padding-top: 44px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.676923px;
+    color: #3F3F3F;
+}
+
+.mail-form_title{
+    margin-top: 53px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 1.30425px;
+    color: #3F3F3F;
+}
+
+.mail-form_text{
+    margin-left: 354px;
+    margin-right: 354px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.652123px;
+    color: #3F3F3F;
+}
+
+.mail-form{
+    text-align: center;
+}
+
+.form{
+    margin-top: 57px;
+}
+
+.email{
+    width: 501px;
+    height: 70px;
+    background: #FFFFFF;
+    padding-left: 30px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.107762);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.521698px;
+    color: #3F3F3F;
+    mix-blend-mode: normal;
+    opacity: 0.19;
+    border: 0;
+    margin-bottom: 114px;
+}
+
+.btn-form{
+    width: 173px;
+    height: 70px;
+    background: linear-gradient(143.97deg, #FCEB6F 19.71%, #FEDE60 74.71%);
+    box-shadow: 0px 6px 9px rgba(244, 214, 58, 0.591401);
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.626038px;
+    color: #FFFFFF;
+    border: 0;
+    margin-bottom: 114px;
+}
+
+.footer{
+    background:#2A2A2A ;
+    padding-top: 84px;
+    text-align: center;
+}
+
+.footer-menu-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.footer-menu-item ul{
+    width: 513px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 84px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu-item ul a{
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.19px;
+    color: #FFFFFF;
+}
+
+.footer-copyright{
+    padding-top: 35px;
+    padding-bottom: 23px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.19px;
+    color: #8F8F8F;
 }
 
 
