@@ -181,8 +181,6 @@ body{
     color: #3F3F3F;
 }
 
-
-
 .home-container_article:nth-child(2){
     background: url(img/Group.png) no-repeat ;
     background-position: 82% top;
@@ -191,7 +189,6 @@ body{
     width: 285px;
     text-align: center;
 }
-
 
 .home-container_article:nth-child(3){
     background: url(img/Group\ 4.png) no-repeat top;
