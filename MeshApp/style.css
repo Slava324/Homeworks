@@ -15,8 +15,8 @@ body{
 }
 
 .header{
-    position: relative;
-    min-height: 858px;
+   
+   
     padding-top: 69px;
     background: linear-gradient(115.26deg, #FCEB6F 8.14%, #FEDE60 88.97%);
 }
@@ -87,9 +87,7 @@ body{
 }
 
 .home-slide_picture{
-    position: absolute;
-    left: 570px;
-    top: 117px;
+    margin-top: 52px;
 }
 
 .home-slide_item_market{
