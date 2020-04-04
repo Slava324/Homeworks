@@ -3,7 +3,6 @@
     .home-slide_item{
         margin-top: auto;
         margin-bottom: auto;
-
     }
 
     .home-slide_picture{
@@ -28,7 +27,6 @@
 }
 
 @media screen and (max-width: 1080px) {
-
 
     .header-menu{
         flex-direction: column;
@@ -135,23 +133,16 @@
         display: none;
     }
 
-    .header-menu_item ul{
-        
-    }
-
     .home-slide_item{
         margin-top: 30px;
     }
 
     .header-slide{
         flex-direction: column;
-
     }
  
     .home-slide_picture{
         align-self: center;
-        
-        
     }
 
     .home-information_container{
@@ -186,8 +177,6 @@
     .email{
         width: auto;
     }
-
-    
 
 }
 
