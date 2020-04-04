@@ -307,6 +307,12 @@ body{
     color: #3F3F3F;
 }
 
+.home-information_picture{
+    margin-right: 160px;
+    margin-top: 85px;
+    margin-bottom: 43px;
+}
+
 .mail-form_title{
     margin-top: 53px;
     text-align: center;
