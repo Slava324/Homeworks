@@ -288,7 +288,7 @@ body{
 #rectangl{
     margin-left: 187px;
     position: absolute;
-    height: 697px;
+    height: 100%;
     width: 186px;
     background: #FFCB00;
     mix-blend-mode: normal;
